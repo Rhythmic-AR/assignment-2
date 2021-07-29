@@ -1,0 +1,119 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* ( COMMON STYLES OR UTILITIES ) */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+a { text-decoration: none; color: black;}
+a:visited { text-decoration: none; color: black;}
+a:hover { text-decoration: none; color: blue;}
+
+.top-highlights{
+    display: flex;
+    width: 1440px;
+    height: 677px;
+    margin-bottom: 70px;
+    background-color: rgb(82, 82, 196);
+    font-size: 30px;
+    color: white;
+}
+
+.half-width{
+    width: 50%;
+    font-size: 45px;
+    padding: 50px 80px 30px 100px;
+}
+
+.half-width img{
+    width: 100%;
+    padding: 20px 20px 20px 22px;
+}
+
+.half-width:hover img{
+    transform: scale(1.5);
+    transition: transform 2s;
+}
+
+.link-button{
+    text-decoration: none;   
+    background-color: #E02C6D;
+    font-weight: 700;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+/* PLAYERS-INFORMATION */
+
+.players-info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.players{
+    width: 330px;
+    height: 474px;
+    margin-bottom: 27px;
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.205);
+}
+
+.photos img{
+    width: 100%;
+}
+
+/* HIGHLIGHTS */
+
+.highlights{
+    display: flex;
+    width: 1440px;
+    height: 550px;
+    background-color: rgb(82, 82, 196);
+    color: white;
+    margin-bottom: 158px;
+}
+
+.bottom-highlights{
+    width: 50%;
+    font-size: 25px;
+    padding: 65px;
+}
+
+.bottom-highlights img{
+    width: 80%; 
+    padding: 40px;
+}
+
+.bottom-highlights:hover img{
+    transform: scale(1.5);
+    transition: transform 2s;
+}
+
+/* FOOTER */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+footer img{
+    width: 483.87px;
+    height: 110px;
+}
+a:hover i{
+    transform: scale(1.5);
+    transition: transform 2s;
+}
+.fab{
+    color: #969BAB;
+    padding: 3px;
+}
